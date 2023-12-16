@@ -8,7 +8,7 @@ import { Category } from '@mui/icons-material'
 const Sidebar = ({ selectedCategory, setSelectedCategory}) => {
   
   return (
-    <Stack direction='row' sx={{flexDirection:{md:'column'}, overflowY:'auto' ,height:{sx:'auto',md:'95%'}}}>
+    <Stack direction='row' sx={{flexDirection:{md:'column'}, overflowY:'auto' ,height:{xs:'auto',md:'95%'}}}>
         {categories.map((c)=>(
             <button 
             key={c.name}
