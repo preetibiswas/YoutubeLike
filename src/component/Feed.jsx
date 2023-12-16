@@ -26,7 +26,7 @@ const Feed = () => {
             </Typography>
         </Box>
         <Box>
-            <Typography sx={{color:'#fff'}} p={2} variant='h4' fontWeight='bold'>New <span style={{color:'#F31503'}}>Videos</span>
+            <Typography sx={{color:'#fff'}} p={2} variant='h4' fontWeight='bold'>{selectedCategory}<span style={{color:'#F31503'}}>Videos</span>
                 
             </Typography>
             <Video videos={videos}/>
