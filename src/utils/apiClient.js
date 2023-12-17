@@ -6,6 +6,7 @@ export default axios.create({
     maxResults: '50',
   },
   headers: {
-    'X-RapidAPI-Key': '4e1cd2742dmsh94f18e0bd1ab2cep16347bjsn9b6643863de7',
+    'X-RapidAPI-Key': 'a613e24dcbmsh01805e99f615a5dp158f6ejsna873e9f3bdab',
+    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 })

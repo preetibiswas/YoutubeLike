@@ -9,7 +9,7 @@ function App  ()  {
    
     <Routes>
       <Route path='/' element={<Feed/>}/>
-      <Route path='/video/:id' element={<VideoDetail/>}/>
+      <Route path='/video/:videoId' element={<VideoDetail/>}/>
       <Route path='/channel/:id' element={<ChannelDetail/>}/>
       <Route path='/search/:text' element={<SearchFeed/>}/>
     </Routes>
