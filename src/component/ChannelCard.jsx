@@ -5,7 +5,7 @@ import { CheckCircle } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
 import { demoProfilePicture } from '../utils/constants'
 const ChannelCard = ({ ChannelDetails,marginTop }) => {
-  console.log("data form other",ChannelDetails)
+  // console.log("data form other",ChannelDetails)
   return (
     <Box
       sx={{
