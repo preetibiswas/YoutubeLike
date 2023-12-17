@@ -4,8 +4,8 @@ import { Box, CardContent, CardMedia, Typography } from '@mui/material'
 import { CheckCircle } from '@mui/icons-material'
 import { Link } from 'react-router-dom'
 import { demoProfilePicture } from '../utils/constants'
-const ChannelCard = ({ ChannelDetails }) => {
-  console.log(ChannelDetails)
+const ChannelCard = ({ ChannelDetails,marginTop }) => {
+  console.log("data form other",ChannelDetails)
   return (
     <Box
       sx={{
@@ -15,9 +15,10 @@ const ChannelCard = ({ ChannelDetails }) => {
         width: { xs: '356px', md: '320px' },
         height: '326px',
         margin: 'auto',
+        marginTop:marginTop
       }}
     >
-      <Link to={`/channelDetails?.id?.channelId`}>
+      <Link to={`/channel/${ChannelDetails?.id?.channelId}`}>
         <CardContent
           sx={{
             display: 'flex',
